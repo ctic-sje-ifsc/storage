@@ -56,7 +56,7 @@ dd if=tempfile of=/dev/null bs=1M count=1024
 1024+0 registros de saída
 1073741824 bytes (1,1 GB) copiados, 9,19565 s, 117 MB/s
 ```
-Podemos constatar que ele pode, dependendo do tipo de arquivos, chegar ao limite da rede. Leitura 109 MBps é 872Mbps, e  escrita 117 MBps é 936Mbps.
+Podemos constatar que ele pode, dependendo do tipo de arquivos, chegar ao limite da rede. Escrita 109 MBps = 872Mbps, e  leitura 117 MBps = 936Mbps.
 
 [Referência dos testes](https://serenity-networks.com/simple-method-to-benchmark-read-write-speeds-from-the-linux-command-line/)
 
