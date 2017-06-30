@@ -41,7 +41,7 @@ Achamos os testes bem satisfatórios, ele se mostrou bem estável quanto a probl
 
 Montamos em um máquina um armazenamento do FreeNAS por NFS e fizemos os testes a seguir.
 
-### Velocidade de leitura em NFS
+### Velocidade de escrita em NFS
 
 ```sh
 sync; dd if=/dev/zero of=tempfile bs=1M count=1024; sync
